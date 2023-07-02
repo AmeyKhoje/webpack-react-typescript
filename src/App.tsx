@@ -1,10 +1,12 @@
-import Button from 'components/Button';
-import 'assets/style.scss';
+import 'assets/styles/style.scss';
+import Banner from './components/sections/banner/Banner';
+import About from './components/sections/about/About';
 
 const App = () => {
   return (
     <div>
-      <Button />
+      <Banner />
+      <About />
     </div>
   );
 };

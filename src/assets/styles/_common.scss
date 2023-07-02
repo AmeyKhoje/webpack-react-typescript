@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+ul {
+  margin: 0;
+}
+
+.text-head {
+  font-size: $fontHead;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-bree {
+  font-family: 'Bree Serif', serif;
+}
+
+.font-noto {
+  font-family: 'Noto Serif Display', serif;
+}
+
+.fit-height {
+  height: 100vh;
+}
+
+.fit-width {
+  width: 100vw;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  font-size: 20px;
+}
+
+@import './variables';
+@import './common';
+@import './_partials/banner';
+@import './_partials/about';

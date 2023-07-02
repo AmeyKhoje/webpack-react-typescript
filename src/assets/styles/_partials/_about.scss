@@ -1,0 +1,26 @@
+.about {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem;
+  }
+  &-me {
+    &-title-flex {
+      display: flex;
+      &-heading {
+        width: 55%;
+        h1 {
+          text-transform: uppercase;
+        }
+      }
+      &-img {
+        width: 10rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
