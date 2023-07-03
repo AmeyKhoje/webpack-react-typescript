@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
   &-container {
     padding: 3rem 5rem;
   }
@@ -34,6 +35,16 @@
         color: rgba($color: $black, $alpha: 0.8);
         font-size: 0.8rem;
       }
+    }
+  }
+  &-img {
+    width: 26rem;
+    position: absolute;
+    right: 10rem;
+    bottom: 10rem;
+    img {
+      width: 100%;
+      filter: grayscale(80%);
     }
   }
 }

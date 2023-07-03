@@ -1,4 +1,5 @@
 import WorkExperienceContent from 'src/components/work-experience-content/WorkExperienceContent';
+import ExpImg from 'assets/images/exp.png';
 
 const WorkExperience = () => {
   return (
@@ -8,6 +9,12 @@ const WorkExperience = () => {
           <h1 className="text-head font-montserrat">Work Experience</h1>
         </div>
         <WorkExperienceContent />
+        <div className="work-exp-img">
+          <img
+            src={ExpImg}
+            alt="amey, amey khoje, Amey Khoje, ameykhoje, AmeyKhoje"
+          />
+        </div>
       </div>
     </div>
   );
