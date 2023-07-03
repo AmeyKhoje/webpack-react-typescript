@@ -4,10 +4,10 @@
   flex-direction: column;
   position: relative;
   &-container {
-    padding: 3rem 5rem;
+    padding: 6rem 12rem;
   }
   &-heading {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     width: 30%;
     h1 {
       text-transform: uppercase;
@@ -16,32 +16,32 @@
   }
   &-content {
     &-card {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       &:last-child {
         margin-bottom: 0;
       }
       .designation {
         font-weight: 900;
-        font-size: 1.3rem;
-        margin-bottom: 0.5rem;
+        font-size: 2.7rem;
+        margin-bottom: 1rem;
       }
       .company {
         font-weight: 600;
-        font-size: 1rem;
-        margin-bottom: 0.2rem;
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
       }
       .period {
         font-weight: 400;
         color: rgba($color: $black, $alpha: 0.8);
-        font-size: 0.8rem;
+        font-size: 1.6rem;
       }
     }
   }
   &-img {
-    width: 26rem;
+    width: 53rem;
     position: absolute;
-    right: 10rem;
-    bottom: 10rem;
+    right: 20rem;
+    bottom: 20rem;
     img {
       width: 100%;
       filter: grayscale(80%);

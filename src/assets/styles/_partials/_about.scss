@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 5rem;
+    padding: 0 10rem;
     max-width: 100%;
   }
   &-me {
@@ -22,7 +22,7 @@
         }
       }
       &-img {
-        width: 10rem;
+        width: 23rem;
         img {
           width: 100%;
           filter: grayscale(80%);
@@ -33,21 +33,23 @@
       width: 100%;
       display: flex;
       align-items: center;
-      padding-left: 28rem;
-      padding-top: 5rem;
+      padding-left: 57rem;
+      padding-top: 10rem;
       position: relative;
 
       &-text {
-        width: 50%;
+        width: 30%;
         p {
           font-size: $fontText;
           font-weight: 400;
+          text-align: justify;
         }
       }
       &-img {
-        width: 12rem;
+        width: 25rem;
         position: absolute;
-        right: 20rem;
+        top: 5rem;
+        right: 41rem;
         transform: rotate(-6deg);
         img {
           width: 100%;
