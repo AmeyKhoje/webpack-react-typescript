@@ -1,0 +1,39 @@
+.work-exp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &-container {
+    padding: 3rem 5rem;
+  }
+  &-heading {
+    padding-bottom: 2rem;
+    width: 30%;
+    h1 {
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
+  &-content {
+    &-card {
+      margin-bottom: 1rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .designation {
+        font-weight: 900;
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+      }
+      .company {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+      }
+      .period {
+        font-weight: 400;
+        color: rgba($color: $black, $alpha: 0.8);
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

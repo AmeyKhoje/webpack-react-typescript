@@ -3,3 +3,9 @@ export interface TypographyInterface {
   fontLevel: Number;
   fontFamilyCategory: Number;
 }
+
+export interface WorkExperienceContentCardInterface {
+  designation: String;
+  company: String;
+  period: String;
+}
