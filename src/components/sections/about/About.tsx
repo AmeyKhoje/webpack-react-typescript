@@ -1,4 +1,5 @@
 import AboutMe from 'assets/images/about_me.jpg';
+import AboutLook from 'assets/images/about_look.jpg';
 
 const About = () => {
   return (
@@ -17,15 +18,18 @@ const About = () => {
         </div>
         <div className="about-me-description-flex">
           <div className="about-me-description-flex-text">
-            <p>
+            <p className="font-montserrat">
               Experienced professional with proven knowledge of web and mobile
               based application with latest trends and techniques for
               optimization and speed in different domains. Aiming to leverage my
               abilities to successfully fill role and responsibilities.
             </p>
           </div>
-          <div className="about-me-secription-flex-img">
-            <img src="" alt="" />
+          <div className="about-me-description-flex-img">
+            <img
+              src={AboutLook}
+              alt="amey, amey khoje, Amey Khoje, ameykhoje, AmeyKhoje"
+            />
           </div>
         </div>
       </div>

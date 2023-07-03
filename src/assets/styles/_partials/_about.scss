@@ -1,10 +1,15 @@
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   &-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0 5rem;
+    max-width: 100%;
   }
   &-me {
     &-title-flex {
@@ -17,6 +22,31 @@
       }
       &-img {
         width: 10rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &-description-flex {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 28rem;
+      padding-top: 5rem;
+      position: relative;
+
+      &-text {
+        width: 50%;
+        p {
+          font-size: $fontText;
+          font-weight: 400;
+        }
+      }
+      &-img {
+        width: 12rem;
+        position: absolute;
+        right: 20rem;
+        transform: rotate(-6deg);
         img {
           width: 100%;
         }
