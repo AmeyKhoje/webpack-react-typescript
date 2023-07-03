@@ -1,0 +1,70 @@
+.skills {
+  width: 100%;
+  &-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 5rem;
+    box-sizing: border-box;
+  }
+  &-header {
+    width: 50%;
+    position: relative;
+    margin-top: 7rem;
+    &-banner {
+      width: 30rem;
+      img {
+        width: 100%;
+        filter: grayscale(80%);
+      }
+    }
+    &-text {
+      position: absolute;
+      width: 60%;
+      top: -4rem;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      h1 {
+        text-align: center;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &-content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  &-item {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    img {
+      width: 1rem;
+      margin-right: 0.3rem;
+    }
+  }
+  &-container {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &-head {
+    margin-bottom: 0.5rem;
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
+}

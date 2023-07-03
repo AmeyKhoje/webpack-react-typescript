@@ -18,12 +18,14 @@
         width: 55%;
         h1 {
           text-transform: uppercase;
+          font-weight: 500;
         }
       }
       &-img {
         width: 10rem;
         img {
           width: 100%;
+          filter: grayscale(80%);
         }
       }
     }
@@ -49,6 +51,7 @@
         transform: rotate(-6deg);
         img {
           width: 100%;
+          filter: grayscale(80%);
         }
       }
     }

@@ -45,7 +45,7 @@ module.exports = ({ mode } = { mode: 'production' }) => {
           ],
         },
         {
-          test: /\.(png|jpg|jpeg|gif)$/,
+          test: /\.(png|svg|jp?g|gif)$/,
           use: {
             loader: 'file-loader',
           },
